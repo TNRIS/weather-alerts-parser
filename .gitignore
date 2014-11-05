@@ -1,0 +1,8 @@
+.dist/
+.sass-cache/
+.tmp/
+node_modules/
+server/config/secrets/
+!server/config/secrets/*.sample.json
+
+bower_components/
