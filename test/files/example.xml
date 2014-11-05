@@ -1,0 +1,1332 @@
+<?xml version = '1.0' encoding = 'UTF-8' standalone = 'yes'?>
+
+<!--
+This atom/xml feed is an index to active advisories, watches and warnings 
+issued by the National Weather Service.  This index file is not the complete 
+Common Alerting Protocol (CAP) alert message.  To obtain the complete CAP 
+alert, please follow the links for each entry in this index.  Also note the 
+CAP message uses a style sheet to convey the information in a human readable 
+format.  Please view the source of the CAP message to see the complete data 
+set.  Not all information in the CAP message is contained in this index of 
+active alerts.
+-->
+
+
+<feed
+xmlns = 'http://www.w3.org/2005/Atom'
+xmlns:cap = 'urn:oasis:names:tc:emergency:cap:1.1'
+xmlns:ha = 'http://www.alerting.net/namespace/index_1.0'
+>
+<!-- http-date = Wed, 05 Nov 2014 07:02:00 GMT -->
+
+<id>http://alerts.weather.gov/cap/us.atom</id>
+<logo>http://alerts.weather.gov/images/xml_logo.gif</logo>
+<generator>NWS CAP Server</generator>
+<updated>2014-11-05T13:02:00-06:00</updated>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Current Watches, Warnings and Advisories for the United States Issued by the National Weather Service</title>
+<link href='http://alerts.weather.gov/cap/us.atom'/>
+
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=AK1251776ADAE4.HighWindWarning.125177795010AK.AJKNPWAJK.0b2fbe9c62ef103901a2841f43c56168</id>
+	<updated>2014-11-05T05:25:00-09:00</updated>
+	<published>2014-11-05T05:25:00-09:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>High Wind Warning issued November 05 at 5:25AM AKST until November 06 at 12:00AM AKST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AK1251776ADAE4.HighWindWarning.125177795010AK.AJKNPWAJK.0b2fbe9c62ef103901a2841f43c56168'/>
+	<summary>...HIGH WIND WARNING REMAINS IN EFFECT FROM 3 PM THIS AFTERNOON TO MIDNIGHT AKST TONIGHT... * LOCATION...PORTIONS OF THE THE SOUTHERN PANHANDLE INCLUDING SOUTHERN BARANOF ISLAND...KUIU ISLAND...SOUTHERN KUPREANOF ISLAND...ETOLIN ISLAND AND ZAREMBO ISLAND. * WIND...25 TO 40 MPH WITH GUSTS TO AROUND 60 MPH. STRONGEST WINDS IN</summary>
+	<cap:event>High Wind Warning</cap:event>
+	<cap:effective>2014-11-05T05:25:00-09:00</cap:effective>
+	<cap:expires>2014-11-06T00:00:00-09:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Severe</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Cape Decision to Salisbury Sound Coastal Area; Inner Channels from Kupreanof Island to Etolin Island</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>002105 002195 002198 002220 002275</value>
+	<valueName>UGC</valueName>
+	<value>AKZ023 AKZ026</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/X.CON.PAJK.HW.W.0011.141106T0000Z-141106T0900Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=AK1251776ADAE4.HighWindWarning.125177795010AK.AJKNPWAJK.df1846fcf72ac5c20287da1e0397d6f8</id>
+	<updated>2014-11-05T05:25:00-09:00</updated>
+	<published>2014-11-05T05:25:00-09:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>High Wind Warning issued November 05 at 5:25AM AKST until November 06 at 12:00AM AKST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AK1251776ADAE4.HighWindWarning.125177795010AK.AJKNPWAJK.df1846fcf72ac5c20287da1e0397d6f8'/>
+	<summary>...HIGH WIND WARNING IN EFFECT FROM 3 PM THIS AFTERNOON TO MIDNIGHT AKST TONIGHT... THE NATIONAL WEATHER SERVICE IN JUNEAU HAS ISSUED A HIGH WIND WARNING...WHICH IS IN EFFECT FROM 3 PM THIS AFTERNOON TO MIDNIGHT AKST TONIGHT. * LOCATION...DOWNTOWN JUNEAU AND DOUGLAS</summary>
+	<cap:event>High Wind Warning</cap:event>
+	<cap:effective>2014-11-05T05:25:00-09:00</cap:effective>
+	<cap:expires>2014-11-06T00:00:00-09:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Severe</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Juneau Borough and Northern Admiralty Island</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>002105 002110 002195</value>
+	<valueName>UGC</valueName>
+	<value>AKZ025</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/X.EXA.PAJK.HW.W.0011.141106T0000Z-141106T0900Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=AK1251776ADAE4.HighWindWarning.125177795010AK.AJKNPWAJK.61f85b15445c631b1b8f07692ab8e57b</id>
+	<updated>2014-11-05T05:25:00-09:00</updated>
+	<published>2014-11-05T05:25:00-09:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>High Wind Warning issued November 05 at 5:25AM AKST until November 06 at 12:00AM AKST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AK1251776ADAE4.HighWindWarning.125177795010AK.AJKNPWAJK.61f85b15445c631b1b8f07692ab8e57b'/>
+	<summary>...HIGH WIND WARNING REMAINS IN EFFECT FROM NOON TODAY TO MIDNIGHT AKST TONIGHT... * LOCATION...THE SOUTHERN PANHANDLE INCLUDING PRINCE OF WALES ISLAND AND THE KETCHIKAN AREA. * WIND...30 TO 40 MPH WITH GUSTS OF 60 TO 70 MPH. STRONGEST WINDS IN COASTAL LOCATIONS.</summary>
+	<cap:event>High Wind Warning</cap:event>
+	<cap:effective>2014-11-05T05:25:00-09:00</cap:effective>
+	<cap:expires>2014-11-06T00:00:00-09:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Severe</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Dixon Entrance to Cape Decision Coastal Area; Southern Inner Channels</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>002130 002198 002275</value>
+	<valueName>UGC</valueName>
+	<value>AKZ027 AKZ028</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/X.CON.PAJK.HW.W.0011.141105T2100Z-141106T0900Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=AK1251776A8B98.WinterWeatherAdvisory.12517796EA30AK.AFGWSWNSB.955e2f98bd2794125d09c59165d7593b</id>
+	<updated>2014-11-05T03:22:00-09:00</updated>
+	<published>2014-11-05T03:22:00-09:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Winter Weather Advisory issued November 05 at 3:22AM AKST until November 07 at 6:00PM AKST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AK1251776A8B98.WinterWeatherAdvisory.12517796EA30AK.AFGWSWNSB.955e2f98bd2794125d09c59165d7593b'/>
+	<summary>CORRECTION CHANGES VALID TIME OF ADVISORY ...WINTER WEATHER ADVISORY IN EFFECT FROM MIDNIGHT TONIGHT THROUGH MIDNIGHT THURSDAY NIGHT... THE NATIONAL WEATHER SERVICE IN FAIRBANKS HAS ISSUED A WINTER WEATHER ADVISORY FOR BLOWING SNOW...WHICH IS IN EFFECT FROM MIDNIGHT TONIGHT TO 6 PM AKST FRIDAY.</summary>
+	<cap:event>Winter Weather Advisory</cap:event>
+	<cap:effective>2014-11-05T03:22:00-09:00</cap:effective>
+	<cap:expires>2014-11-07T18:00:00-09:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Eastern Beaufort Sea Coast</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>002185</value>
+	<valueName>UGC</valueName>
+	<value>AKZ204</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.COR.PAFG.WW.Y.0186.141106T0900Z-141108T0300Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=AK12517769A00C.SpecialWeatherStatement.1251776BA028AK.AFCSPSALU.8b43a63dcfd55704438530ea28b67740</id>
+	<updated>2014-11-04T21:19:00-09:00</updated>
+	<published>2014-11-04T21:19:00-09:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Special Weather Statement issued November 04 at 9:19PM AKST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AK12517769A00C.SpecialWeatherStatement.1251776BA028AK.AFCSPSALU.8b43a63dcfd55704438530ea28b67740'/>
+	<summary>...HIGH WINDS AND SEAS EXPECTED AS TYPHOON REMNANTS CREATE A MAJOR STORM IN THE BERING SEA LATE THIS WEEK... A RAPIDLY INTENSIFYING STORM MAY CREATE HIGH SEAS AND HURRICANE FORCE WINDS STARTING IN THE WESTERN ALEUTIANS AS EARLY AS FRIDAY NIGHT. .WEATHER BRIEFING.</summary>
+	<cap:event>Special Weather Statement</cap:event>
+	<cap:effective>2014-11-04T21:19:00-09:00</cap:effective>
+	<cap:expires>2014-11-05T10:30:00-09:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Observed</cap:certainty>
+	<cap:areaDesc>Alaska Peninsula; Bristol Bay; Central Aleutians; Eastern Aleutians; Kuskokwim Delta; Western Aleutians</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>002013 002016 002050 002070 002122 002150 002164 002270</value>
+	<valueName>UGC</valueName>
+	<value>AKZ155 AKZ161 AKZ181 AKZ185 AKZ187 AKZ191</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value></value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=AK12517768E61C.AirQualityAlert.125177782924AK.AFGAQAAFG.0cea83c5a2b9072803849fb841d40c82</id>
+	<updated>2014-11-04T16:43:00-09:00</updated>
+	<published>2014-11-04T16:43:00-09:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Air Quality Alert issued November 04 at 4:43PM AKST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AK12517768E61C.AirQualityAlert.125177782924AK.AFGAQAAFG.0cea83c5a2b9072803849fb841d40c82'/>
+	<summary>...AIR QUALITY ALERT IN EFFECT UNTIL 5 PM AKST THURSDAY... THE FAIRBANKS NORTH STAR BOROUGH AIR QUALITY PROGRAM HAS ISSUED AN AIR QUALITY ADVISORY FOR THE FAIRBANKS NORTH STAR BOROUGH...IN EFFECT UNTIL 5 PM AKST THURSDAY. CURRENT AIR QUALITY IN THE FAIRBANKS NORTH STAR BOROUGH IS CLASSIFIED AS UNHEALTHY FOR SENSITIVE GROUPS AND EXCEEDS THE EPA</summary>
+	<cap:event>Air Quality Alert</cap:event>
+	<cap:effective>2014-11-04T16:43:00-09:00</cap:effective>
+	<cap:expires>2014-11-05T16:45:00-09:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Unknown</cap:urgency>
+	<cap:severity>Unknown</cap:severity>
+	<cap:certainty>Unknown</cap:certainty>
+	<cap:areaDesc>Middle Tanana Valley</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>002090 002290</value>
+	<valueName>UGC</valueName>
+	<value>AKZ222</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value></value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776B4C90.RedFlagWarning.12517778B3D0CA.LOXRFWLOX.4acc47264c1fd4d6cc950a70501c1c43</id>
+	<updated>2014-11-05T09:16:00-08:00</updated>
+	<published>2014-11-05T09:16:00-08:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Red Flag Warning issued November 05 at 9:16AM PST until November 05 at 9:00PM PST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776B4C90.RedFlagWarning.12517778B3D0CA.LOXRFWLOX.4acc47264c1fd4d6cc950a70501c1c43'/>
+	<summary>...RED FLAG WARNING IN EFFECT THROUGH THIS EVENING FOR GUSTY NORTHEAST WINDS AND LOW HUMIDITY OVER PORTIONS OF LOS ANGELES AND VENTURA COUNTIES... .DISCUSSION...NO CHANGES FROM PREVIOUS ISSUANCE. PERSISTENT WEAK TO MODERATE OFFSHORE WINDS AND LOW HUMIDITIES WILL CONTINUE TO BRING A CRITICAL FIRE DANGER TO SOUTHERN CALIFORNIA. WINDS TODAY</summary>
+	<cap:event>Red Flag Warning</cap:event>
+	<cap:effective>2014-11-05T09:16:00-08:00</cap:effective>
+	<cap:expires>2014-11-05T21:00:00-08:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Severe</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Santa Clarita Valley; Ventura County Coastal Valleys; Ventura County Interior Valleys</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>006037 006111</value>
+	<valueName>UGC</valueName>
+	<value>CAZ244 CAZ245 CAZ288</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.KLOX.FW.W.0012.000000T0000Z-141106T0500Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776B4C90.RedFlagWarning.12517778B3D0CA.LOXRFWLOX.1ffb35cbd405a5d5390583bae4b970c0</id>
+	<updated>2014-11-05T09:16:00-08:00</updated>
+	<published>2014-11-05T09:16:00-08:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Red Flag Warning issued November 05 at 9:16AM PST until November 05 at 9:00PM PST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776B4C90.RedFlagWarning.12517778B3D0CA.LOXRFWLOX.1ffb35cbd405a5d5390583bae4b970c0'/>
+	<summary>...RED FLAG WARNING IN EFFECT THROUGH THIS EVENING FOR GUSTY NORTHEAST WINDS AND LOW HUMIDITY OVER PORTIONS OF LOS ANGELES AND VENTURA COUNTIES... .DISCUSSION...NO CHANGES FROM PREVIOUS ISSUANCE. PERSISTENT WEAK TO MODERATE OFFSHORE WINDS AND LOW HUMIDITIES WILL CONTINUE TO BRING A CRITICAL FIRE DANGER TO SOUTHERN CALIFORNIA. WINDS TODAY</summary>
+	<cap:event>Red Flag Warning</cap:event>
+	<cap:effective>2014-11-05T09:16:00-08:00</cap:effective>
+	<cap:expires>2014-11-05T21:00:00-08:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Severe</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Los Angeles County Mountains, Angeles National Forest; Santa Monica Mountains Recreational Area; Ventura County Mountains, Los Padres National Forest</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>006037 006111</value>
+	<valueName>UGC</valueName>
+	<value>CAZ246 CAZ253 CAZ254</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.KLOX.FW.W.0012.000000T0000Z-141106T0500Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776B4C90.RedFlagWarning.12517778B3D0CA.LOXRFWLOX.37f57bb640fe13417c676e2e4aaa1f31</id>
+	<updated>2014-11-05T09:16:00-08:00</updated>
+	<published>2014-11-05T09:16:00-08:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Red Flag Warning issued November 05 at 9:16AM PST until November 05 at 9:00PM PST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776B4C90.RedFlagWarning.12517778B3D0CA.LOXRFWLOX.37f57bb640fe13417c676e2e4aaa1f31'/>
+	<summary>...RED FLAG WARNING IN EFFECT THROUGH THIS EVENING FOR GUSTY NORTHEAST WINDS AND LOW HUMIDITY OVER PORTIONS OF LOS ANGELES AND VENTURA COUNTIES... .DISCUSSION...NO CHANGES FROM PREVIOUS ISSUANCE. PERSISTENT WEAK TO MODERATE OFFSHORE WINDS AND LOW HUMIDITIES WILL CONTINUE TO BRING A CRITICAL FIRE DANGER TO SOUTHERN CALIFORNIA. WINDS TODAY</summary>
+	<cap:event>Red Flag Warning</cap:event>
+	<cap:effective>2014-11-05T09:16:00-08:00</cap:effective>
+	<cap:expires>2014-11-05T21:00:00-08:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Severe</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Los Angeles County San Fernando Valley</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>006037</value>
+	<valueName>UGC</valueName>
+	<value>CAZ547</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.KLOX.FW.W.0012.000000T0000Z-141106T0500Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776B4C2C.WindAdvisory.1251777AFDC0CA.SGXNPWSGX.0d3de12f00b50647e99abad171b95e99</id>
+	<updated>2014-11-05T09:15:00-08:00</updated>
+	<published>2014-11-05T09:15:00-08:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Wind Advisory issued November 05 at 9:15AM PST until November 06 at 12:00PM PST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776B4C2C.WindAdvisory.1251777AFDC0CA.SGXNPWSGX.0d3de12f00b50647e99abad171b95e99'/>
+	<summary>...WIND ADVISORY NEAR THE COASTAL FOOTHILLS THROUGH THURSDAY MORNING... .SURFACE HIGH PRESSURE OVER THE GREAT BASIN WILL BRING PERIODS OF STRONG AND GUSTY NORTHEAST TO EAST WINDS THROUGH THURSDAY MORNING ALONG AND NEAR COASTAL FOOTHILLS AND BELOW PASSES AND CANYONS. WINDS ARE EXPECTED TO BE STRONGEST EACH DAY FROM LATE AT NIGHT</summary>
+	<cap:event>Wind Advisory</cap:event>
+	<cap:effective>2014-11-05T09:15:00-08:00</cap:effective>
+	<cap:expires>2014-11-06T12:00:00-08:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Orange County Coastal Areas; Riverside County Mountains; San Bernardino County Mountains; San Bernardino and Riverside County Valleys -The Inland Empire; San Diego County Mountains; San Diego County Valleys; Santa Ana Mountains and Foothills</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>006059 006065 006071 006073</value>
+	<valueName>UGC</valueName>
+	<value>CAZ042 CAZ048 CAZ050 CAZ055 CAZ056 CAZ057 CAZ058</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.KSGX.WI.Y.0050.000000T0000Z-141106T2000Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776A8620.RedFlagWarning.12517778B3D0CA.SGXRFWSGX.4c284e7655183dc95f235e01904b1f21</id>
+	<updated>2014-11-05T04:08:00-08:00</updated>
+	<published>2014-11-05T04:08:00-08:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Red Flag Warning issued November 05 at 4:08AM PST until November 05 at 9:00PM PST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776A8620.RedFlagWarning.12517778B3D0CA.SGXRFWSGX.4c284e7655183dc95f235e01904b1f21'/>
+	<summary>...RED FLAG WARNING IN EFFECT THROUGH THIS EVENING FOR THE SAN BERNARDINO NATIONAL FOREST AND THE SANTA ANA MOUNTAINS AND FOOTHILLS...AND THROUGH THURSDAY EVENING FOR THE INLAND EMPIRE... THE RIVERSIDE COUNTY MOUNTAINS...AND THE SAN DIEGO COUNTY VALLEYS AND MOUNTAINS FOR GUSTY NORTHEAST TO EAST WINDS AND LOW RELATIVE HUMIDITIES...</summary>
+	<cap:event>Red Flag Warning</cap:event>
+	<cap:effective>2014-11-05T04:08:00-08:00</cap:effective>
+	<cap:expires>2014-11-05T21:00:00-08:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Severe</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Orange County Coastal Areas; San Bernardino County Mountains-Including The Mountain Top And Front Country Ranger Districts Of The San Bernardino National Forest; Santa Ana Mountains-Including The Trabuco Ranger District of the Cleveland National Forest</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>006059 006065 006071 006073</value>
+	<valueName>UGC</valueName>
+	<value>CAZ242 CAZ255 CAZ257</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.KSGX.FW.W.0006.000000T0000Z-141106T0500Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776A8620.RedFlagWarning.1251778759D0CA.SGXRFWSGX.132c7b149ab78ee278a0f6c597baffcd</id>
+	<updated>2014-11-05T04:08:00-08:00</updated>
+	<published>2014-11-05T04:08:00-08:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Red Flag Warning issued November 05 at 4:08AM PST until November 06 at 5:00PM PST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776A8620.RedFlagWarning.1251778759D0CA.SGXRFWSGX.132c7b149ab78ee278a0f6c597baffcd'/>
+	<summary>...RED FLAG WARNING IN EFFECT THROUGH THIS EVENING FOR THE SAN BERNARDINO NATIONAL FOREST AND THE SANTA ANA MOUNTAINS AND FOOTHILLS...AND THROUGH THURSDAY EVENING FOR THE INLAND EMPIRE... THE RIVERSIDE COUNTY MOUNTAINS...AND THE SAN DIEGO COUNTY VALLEYS AND MOUNTAINS FOR GUSTY NORTHEAST TO EAST WINDS AND LOW RELATIVE HUMIDITIES...</summary>
+	<cap:event>Red Flag Warning</cap:event>
+	<cap:effective>2014-11-05T04:08:00-08:00</cap:effective>
+	<cap:expires>2014-11-06T17:00:00-08:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Severe</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Riverside County Mountains-Including The San Jacinto Ranger District Of The San Bernardino National Forest; San Bernardino and Riverside County Valleys - The Inland Empire; San Diego County Inland Valleys; San Diego County Mountains-Including The Palomar And Descanso Ranger Districts of the Cleveland National Forest</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>006065 006071 006073</value>
+	<valueName>UGC</valueName>
+	<value>CAZ248 CAZ250 CAZ256 CAZ258</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.KSGX.FW.W.0006.000000T0000Z-141107T0100Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776A49F8.WindAdvisory.12517777F080CA.LOXNPWLOX.0a4e9c1955bf62726086e65f9d070abc</id>
+	<updated>2014-11-05T02:54:00-08:00</updated>
+	<published>2014-11-05T02:54:00-08:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Wind Advisory issued November 05 at 2:54AM PST until November 05 at 4:00PM PST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776A49F8.WindAdvisory.12517777F080CA.LOXNPWLOX.0a4e9c1955bf62726086e65f9d070abc'/>
+	<summary>...GUSTY NORTHEAST WINDS THROUGH THIS AFTERNOON FOR THE SANTA CLARITA VALLEY...THE LOS ANGELES COUNTY MOUNTAINS... INCLUDING THE SANTA MONICA RANGE AND THE VENTURA COUNTY VALLEYS... .GUSTY NORTHEAST WINDS ASSOCIATED WITH THE ONGOING SANTA ANA EVENT WILL CONTINUE THIS MORNING AND LAST THROUGH MID AFTERNOON. THE WINDS WILL BE STRONGEST DURING THE MID MORNING.</summary>
+	<cap:event>Wind Advisory</cap:event>
+	<cap:effective>2014-11-05T02:54:00-08:00</cap:effective>
+	<cap:expires>2014-11-05T16:00:00-08:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Ventura County Coastal Valleys; Ventura County Interior Valleys</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>006111</value>
+	<valueName>UGC</valueName>
+	<value>CAZ044 CAZ045</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.EXB.KLOX.WI.Y.0073.141105T1100Z-141106T0000Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776A49F8.WindAdvisory.12517777F080CA.LOXNPWLOX.00eb9192ef5a93243cd5df38af949d1e</id>
+	<updated>2014-11-05T02:54:00-08:00</updated>
+	<published>2014-11-05T02:54:00-08:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Wind Advisory issued November 05 at 2:54AM PST until November 05 at 4:00PM PST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776A49F8.WindAdvisory.12517777F080CA.LOXNPWLOX.00eb9192ef5a93243cd5df38af949d1e'/>
+	<summary>...GUSTY NORTHEAST WINDS THROUGH THIS AFTERNOON FOR THE SANTA CLARITA VALLEY...THE LOS ANGELES COUNTY MOUNTAINS... INCLUDING THE SANTA MONICA RANGE AND THE VENTURA COUNTY VALLEYS... .GUSTY NORTHEAST WINDS ASSOCIATED WITH THE ONGOING SANTA ANA EVENT WILL CONTINUE THIS MORNING AND LAST THROUGH MID AFTERNOON. THE WINDS WILL BE STRONGEST DURING THE MID MORNING.</summary>
+	<cap:event>Wind Advisory</cap:event>
+	<cap:effective>2014-11-05T02:54:00-08:00</cap:effective>
+	<cap:expires>2014-11-05T16:00:00-08:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Los Angeles County Mountains excluding the Santa Monica Range; Santa Monica Mountains Recreational Area</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>006037</value>
+	<valueName>UGC</valueName>
+	<value>CAZ046 CAZ054</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.KLOX.WI.Y.0073.000000T0000Z-141106T0000Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776A49F8.WindAdvisory.12517777F080CA.LOXNPWLOX.6638d7a906871ec9578840d5a4f22ac4</id>
+	<updated>2014-11-05T02:54:00-08:00</updated>
+	<published>2014-11-05T02:54:00-08:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Wind Advisory issued November 05 at 2:54AM PST until November 05 at 4:00PM PST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA1251776A49F8.WindAdvisory.12517777F080CA.LOXNPWLOX.6638d7a906871ec9578840d5a4f22ac4'/>
+	<summary>...GUSTY NORTHEAST WINDS THROUGH THIS AFTERNOON FOR THE SANTA CLARITA VALLEY...THE LOS ANGELES COUNTY MOUNTAINS... INCLUDING THE SANTA MONICA RANGE AND THE VENTURA COUNTY VALLEYS... .GUSTY NORTHEAST WINDS ASSOCIATED WITH THE ONGOING SANTA ANA EVENT WILL CONTINUE THIS MORNING AND LAST THROUGH MID AFTERNOON. THE WINDS WILL BE STRONGEST DURING THE MID MORNING.</summary>
+	<cap:event>Wind Advisory</cap:event>
+	<cap:effective>2014-11-05T02:54:00-08:00</cap:effective>
+	<cap:expires>2014-11-05T16:00:00-08:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Santa Clarita Valley</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>006037</value>
+	<valueName>UGC</valueName>
+	<value>CAZ088</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.KLOX.WI.Y.0073.000000T0000Z-141106T0000Z/</value>
+	</cap:parameter>
+	</entry>
+	
+
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=FL1251776AAE5C.RipCurrentStatement.12517777F080FL.MFLCFWMFL.6b4abc6af366c9b6c89a25a365ccfa02</id>
+	<updated>2014-11-05T08:11:00-05:00</updated>
+	<published>2014-11-05T08:11:00-05:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Rip Current Statement issued November 05 at 8:11AM EST until November 05 at 7:00PM EST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=FL1251776AAE5C.RipCurrentStatement.12517777F080FL.MFLCFWMFL.6b4abc6af366c9b6c89a25a365ccfa02'/>
+	<summary>...HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH WEDNESDAY EVENING... ...HIGH RIP CURRENT RISK REMAINS IN EFFECT UNTIL 7 PM EST THIS EVENING... * TIMING...THROUGH WEDNESDAY EVENING * IMPACTS...DANGEROUS RIP CURRENTS ARE EXPECTED ALONG ATLANTIC</summary>
+	<cap:event>Rip Current Statement</cap:event>
+	<cap:effective>2014-11-05T08:11:00-05:00</cap:effective>
+	<cap:expires>2014-11-05T19:00:00-05:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Moderate</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Coastal Broward County; Coastal Miami Dade County; Coastal Palm Beach County</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>012011 012086 012099</value>
+	<valueName>UGC</valueName>
+	<value>FLZ168 FLZ172 FLZ173</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.KMFL.RP.S.0029.000000T0000Z-141106T0000Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=GU125177697190.HighSurfAdvisory.125177792900GU.GUMCFWMY.14798912ac29839ec2fa90ddc4d96a43</id>
+	<updated>2014-11-05T15:00:00+10:00</updated>
+	<published>2014-11-05T15:00:00+10:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>High Surf Advisory issued November 05 at 3:00PM ChST until November 06 at 6:00PM ChST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=GU125177697190.HighSurfAdvisory.125177792900GU.GUMCFWMY.14798912ac29839ec2fa90ddc4d96a43'/>
+	<summary>...HIGH SURF ADVISORY REMAINS IN EFFECT UNTIL 6 PM CHST THURSDAY ALONG NORTH AND WEST FACING REEFS... A HIGH SURF ADVISORY REMAINS IN EFFECT UNTIL 6 PM CHST THURSDAY. EXPECT HAZARDOUS SURF OF 7 TO TO 9 FEET ALONG WEST AND NORTH FACING REEFS TONIGHT AND THURSDAY. SURF IS EXPECTED TO FALL BELOW HAZARDOUS LEVELS BY THURSDAY EVENING.</summary>
+	<cap:event>High Surf Advisory</cap:event>
+	<cap:effective>2014-11-05T15:00:00+10:00</cap:effective>
+	<cap:expires>2014-11-06T18:00:00+10:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Guam; Rota; Saipan; Tinian</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>066010 069100 069110 069120</value>
+	<valueName>UGC</valueName>
+	<value>GUZ001 GUZ002 GUZ003 GUZ004</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/X.CON.PGUM.SU.Y.0024.000000T0000Z-141106T0800Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=KS1251776B76C0.FreezeWarning.1251777A3A70KS.DDCNPWDDC.d615ecaf32e72916cc429f3879309203</id>
+	<updated>2014-11-05T12:24:00-06:00</updated>
+	<published>2014-11-05T12:24:00-06:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Freeze Warning issued November 05 at 12:24PM CST until November 06 at 9:00AM CST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=KS1251776B76C0.FreezeWarning.1251777A3A70KS.DDCNPWDDC.d615ecaf32e72916cc429f3879309203'/>
+	<summary>...EXPECT LOW TEMPERATURES AROUND THE FREEZING MARK TONIGHT... .CLEAR SKIES, LIGHT WINDS AND DRY AIR WILL CREATE FAVORABLE CONDITIONS FOR LOW TEMPERATURES AT OR BELOW FREEZING FOR FAR WESTERN KANSAS THURSDAY MORNING. ...FREEZE WARNING IN EFFECT FROM 3 AM TO 9 AM CST THURSDAY... THE NATIONAL WEATHER SERVICE IN DODGE CITY HAS ISSUED A FREEZE</summary>
+	<cap:event>Freeze Warning</cap:event>
+	<cap:effective>2014-11-05T12:24:00-06:00</cap:effective>
+	<cap:expires>2014-11-06T09:00:00-06:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Moderate</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Grant; Stanton</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>020067 020187</value>
+	<valueName>UGC</valueName>
+	<value>KSZ074 KSZ075</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.UPG.KDDC.FZ.A.0003.141106T0900Z-141106T1500Z/
+/O.NEW.KDDC.FZ.W.0008.141106T0900Z-141106T1500Z/</value>
+	</cap:parameter>
+	</entry>
+	
+
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=MN1251776AAD94.SpecialWeatherStatement.1251776C09A0MN.FGFSPSFGF.204b187d806d8efcc69ab72c397ed0f9</id>
+	<updated>2014-11-05T07:09:00-06:00</updated>
+	<published>2014-11-05T07:09:00-06:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Special Weather Statement issued November 05 at 7:09AM CST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=MN1251776AAD94.SpecialWeatherStatement.1251776C09A0MN.FGFSPSFGF.204b187d806d8efcc69ab72c397ed0f9'/>
+	<summary>...FIRST ACCUMULATING SNOW OF THE SEASON... LIGHT SNOW WILL OCCUR AT TIMES TODAY ACROSS AN AREA FROM DEVILS LAKE TO COOPERSTOWN AND INTO DETROIT LAKES AND WADENA. 1 TO 3 INCHES OF SNOW IS EXPECTED IN GRASSY AREAS...WITH LESS ACCUMULATION ON THE ROADWAYS. THERE IS A CHANCE FOR SOME AREAS TO RECEIVE HIGHER SNOWFALL AMOUNTS.</summary>
+	<cap:event>Special Weather Statement</cap:event>
+	<cap:effective>2014-11-05T07:09:00-06:00</cap:effective>
+	<cap:expires>2014-11-05T16:00:00-06:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Observed</cap:certainty>
+	<cap:areaDesc>Clay; East Becker; East Otter Tail; Hubbard; Mahnomen; Norman; South Clearwater; Wadena; West Becker; West Otter Tail</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>027005 027027 027029 027057 027087 027107 027111 027159</value>
+	<valueName>UGC</valueName>
+	<value>MNZ002 MNZ003 MNZ022 MNZ023 MNZ024 MNZ027 MNZ028 MNZ030 MNZ031 MNZ032</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value></value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=MT1251776A5F74.LakeWindAdvisory.125177781790MT.GGWNPWGGW.d0c4206ccab320fb04e0619af69b9bcb</id>
+	<updated>2014-11-05T04:09:00-07:00</updated>
+	<published>2014-11-05T04:09:00-07:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Lake Wind Advisory issued November 05 at 4:09AM MST until November 05 at 6:00PM MST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=MT1251776A5F74.LakeWindAdvisory.125177781790MT.GGWNPWGGW.d0c4206ccab320fb04e0619af69b9bcb'/>
+	<summary>...LAKE WIND ADVISORY REMAINS IN EFFECT UNTIL 6 PM MST THIS AFTERNOON FOR FORT PECK LAKE... A LAKE WIND ADVISORY FOR FORT PECK LAKE REMAINS IN EFFECT UNTIL 6 PM MST THIS AFTERNOON. * TIMING...THROUGH THIS AFTERNOON. * WINDS...NORTHWEST AT 15 TO 25 MPH.</summary>
+	<cap:event>Lake Wind Advisory</cap:event>
+	<cap:effective>2014-11-05T04:09:00-07:00</cap:effective>
+	<cap:expires>2014-11-05T18:00:00-07:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Central and Southeast Phillips; Central and Southern Valley; Garfield; McCone; Petroleum</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>030033 030055 030069 030071 030105</value>
+	<valueName>UGC</valueName>
+	<value>MTZ016 MTZ017 MTZ021 MTZ022 MTZ023</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.KGGW.LW.Y.0052.000000T0000Z-141106T0100Z/</value>
+	</cap:parameter>
+	</entry>
+	
+
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=ND1251776B9538.WindAdvisory.1251776BE290ND.BISNPWBIS.6b965996ccc3da2e47ce917f18abc65e</id>
+	<updated>2014-11-05T13:02:00-06:00</updated>
+	<published>2014-11-05T13:02:00-06:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Wind Advisory issued November 05 at 1:02PM CST until November 05 at 3:00PM CST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=ND1251776B9538.WindAdvisory.1251776BE290ND.BISNPWBIS.6b965996ccc3da2e47ce917f18abc65e'/>
+	<summary>...GUSTY NORTHWEST WINDS ACROSS SOUTHWEST AND SOUTH CENTRAL NORTH DAKOTA TODAY... .A CLIPPER SYSTEM WILL MOVE RAPIDLY ACROSS NORTH DAKOTA TODAY. BEHIND THE SYSTEM...STRONG NORTHWEST WINDS OF 25 TO 35 MPH WILL CONTINUE ACROSS THE ADVISORY AREA...WITH GUSTS TO AROUND 45 MPH THROUGH MID AFTERNOON.</summary>
+	<cap:event>Wind Advisory</cap:event>
+	<cap:effective>2014-11-05T13:02:00-06:00</cap:effective>
+	<cap:expires>2014-11-05T15:00:00-06:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Adams; Billings; Bowman; Burleigh; Emmons; Golden Valley; Grant; Hettinger; Morton; Sioux; Slope; Stark</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>038001 038007 038011 038015 038029 038033 038037 038041 038059 038085 038087 038089</value>
+	<valueName>UGC</valueName>
+	<value>NDZ031 NDZ032 NDZ033 NDZ034 NDZ035 NDZ040 NDZ041 NDZ042 NDZ043 NDZ044 NDZ045 NDZ046</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.KBIS.WI.Y.0030.000000T0000Z-141105T2100Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=ND1251776AAD94.SpecialWeatherStatement.1251776C09A0ND.FGFSPSFGF.d7a9065b5b7822f1f12993984130e70c</id>
+	<updated>2014-11-05T07:09:00-06:00</updated>
+	<published>2014-11-05T07:09:00-06:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Special Weather Statement issued November 05 at 7:09AM CST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=ND1251776AAD94.SpecialWeatherStatement.1251776C09A0ND.FGFSPSFGF.d7a9065b5b7822f1f12993984130e70c'/>
+	<summary>...FIRST ACCUMULATING SNOW OF THE SEASON... LIGHT SNOW WILL OCCUR AT TIMES TODAY ACROSS AN AREA FROM DEVILS LAKE TO COOPERSTOWN AND INTO DETROIT LAKES AND WADENA. 1 TO 3 INCHES OF SNOW IS EXPECTED IN GRASSY AREAS...WITH LESS ACCUMULATION ON THE ROADWAYS. THERE IS A CHANCE FOR SOME AREAS TO RECEIVE HIGHER SNOWFALL AMOUNTS.</summary>
+	<cap:event>Special Weather Statement</cap:event>
+	<cap:effective>2014-11-05T07:09:00-06:00</cap:effective>
+	<cap:expires>2014-11-05T16:00:00-06:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Observed</cap:certainty>
+	<cap:areaDesc>Benson; Cass; Eddy; Griggs; Nelson; Ramsey; Steele; Towner; Traill</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>038005 038017 038027 038039 038063 038071 038091 038095 038097</value>
+	<valueName>UGC</valueName>
+	<value>NDZ006 NDZ014 NDZ015 NDZ024 NDZ026 NDZ028 NDZ029 NDZ030 NDZ039</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value></value>
+	</cap:parameter>
+	</entry>
+	
+
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=OR1251776A6618.SpecialWeatherStatement.1251776C30B0OR.PQRSPSPQR.d00b85d256f25c55081232eca3a81a64</id>
+	<updated>2014-11-05T03:26:00-08:00</updated>
+	<published>2014-11-05T03:26:00-08:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Special Weather Statement issued November 05 at 3:26AM PST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=OR1251776A6618.SpecialWeatherStatement.1251776C30B0OR.PQRSPSPQR.d00b85d256f25c55081232eca3a81a64'/>
+	<summary>...WINDY CONDITIONS POSSIBLE ALONG THE SOUTH WASHINGTON COAST AND THE NORTH OREGON COAST THURSDAY...AND LOCALLY INLAND FROM ABOUT PORTLAND NORTHWARD... RATHER STRONG SOUTH WINDS ARE LIKELY TO DEVELOP ALONG THE SOUTH WASHINGTON AND NORTH OREGON COASTS THURSDAY AS A STRONG COLD FRONT MOVES THROUGH. ALONG COASTAL HEADLANDS AND BEACHES EXPECT SOUTH</summary>
+	<cap:event>Special Weather Statement</cap:event>
+	<cap:effective>2014-11-05T03:26:00-08:00</cap:effective>
+	<cap:expires>2014-11-05T15:00:00-08:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Observed</cap:certainty>
+	<cap:areaDesc>Coast Range of Northwest Oregon; Greater Portland Metro Area; Lower Columbia; North Oregon Coast</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>041005 041007 041009 041051 041057 041067 041071</value>
+	<valueName>UGC</valueName>
+	<value>ORZ001 ORZ003 ORZ005 ORZ006</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value></value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=OR1251776A63C0.WindAdvisory.1251777B4BE0OR.MFRNPWMFR.b508d52da32772930c4964840647e425</id>
+	<updated>2014-11-05T03:20:00-08:00</updated>
+	<published>2014-11-05T03:20:00-08:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Wind Advisory issued November 05 at 3:20AM PST until November 06 at 2:00PM PST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=OR1251776A63C0.WindAdvisory.1251777B4BE0OR.MFRNPWMFR.b508d52da32772930c4964840647e425'/>
+	<summary>...GUSTY SOUTHWEST WINDS EXPECTED TONIGHT INTO THURSDAY... .A FRONTAL SYSTEM WILL BRING MODERATE TO STRONG SOUTHWEST GUSTS LATE TONIGHT INTO EARLY THURSDAY AFTERNOON. ...WIND ADVISORY IN EFFECT FROM 1 AM TO 2 PM PST THURSDAY... THE NATIONAL WEATHER SERVICE IN MEDFORD HAS ISSUED A WIND ADVISORY...WHICH IS IN EFFECT FROM 1 AM TO 2 PM PST THURSDAY.</summary>
+	<cap:event>Wind Advisory</cap:event>
+	<cap:effective>2014-11-05T03:20:00-08:00</cap:effective>
+	<cap:expires>2014-11-06T14:00:00-08:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Central and Eastern Lake County; Northern and Eastern Klamath County and Western Lake County</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>041035 041037</value>
+	<valueName>UGC</valueName>
+	<value>ORZ030 ORZ031</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.NEW.KMFR.WI.Y.0029.141106T0900Z-141106T2200Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=PR1251776B7274.HighSurfAdvisory.1251776C09A0PR.JSJCFWSJU.9665378f8be0308953b84bf7d1b15d81</id>
+	<updated>2014-11-05T14:13:00-04:00</updated>
+	<published>2014-11-05T14:13:00-04:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>High Surf Advisory issued November 05 at 2:13PM AST until November 05 at 6:00PM AST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=PR1251776B7274.HighSurfAdvisory.1251776C09A0PR.JSJCFWSJU.9665378f8be0308953b84bf7d1b15d81'/>
+	<summary>...HAZARDOUS SURF CONDITIONS WILL CONTINUE TO AFFECT THE ATLANTIC COASTLINE THROUGH LATE THIS EVENING...AND SUBSIDING OVERNIGHT... .NORTHERLY SWELLS OF 7 TO 8 FEET WILL CONTINUE TO AFFECT THE ATLANTIC COASTLINE THROUGH LATE THIS EVENING. THIS WILL CONTINUE TO RESULT IN SIGNIFICANT BREAKING WAVE ACTION ALONG THE COAST. CONDITIONS IMPROVING OVERNIGHT.</summary>
+	<cap:event>High Surf Advisory</cap:event>
+	<cap:effective>2014-11-05T14:13:00-04:00</cap:effective>
+	<cap:expires>2014-11-05T18:00:00-04:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Culebra; Mayaguez and Vicinity; North Central; Northeast; Northwest; San Juan and Vicinity</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>072003 072005 072011 072013 072017 072021 072027 072029 072031 072033 072037 072049 072051 072053 072054 072061 072065 072067 072069 072071 072087 072089 072091 072097 072099 072103 072115 072117 072119 072125 072127 072135 072137 072139 072143 072145</value>
+	<valueName>UGC</valueName>
+	<value>PRZ001 PRZ002 PRZ005 PRZ008 PRZ010 PRZ012</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CAN.TJSJ.CF.A.0001.000000T0000Z-141105T2200Z/
+/O.EXT.TJSJ.SU.Y.0006.000000T0000Z-141106T0800Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=PR1251776B05DC.FlashFloodWatch.1251776C09A0PR.JSJFFASJU.87e206f75fb9a76ed6d6afa35fd23bd7</id>
+	<updated>2014-11-05T11:35:00-04:00</updated>
+	<published>2014-11-05T11:35:00-04:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Flash Flood Watch issued November 05 at 11:35AM AST until November 05 at 6:00PM AST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=PR1251776B05DC.FlashFloodWatch.1251776C09A0PR.JSJFFASJU.87e206f75fb9a76ed6d6afa35fd23bd7'/>
+	<summary>...FLASH FLOOD WATCH REMAINS IN EFFECT UNTIL 6 PM AST THIS EVENING... THE FLASH FLOOD WATCH CONTINUES FOR ALL PUERTO RICO AND THE U.S. VIRGIN ISLANDS. * UNTIL 6 PM AST THIS EVENING * AN INDUCED SURFACE TROUGH...ASSOCIATED WITH A DEVELOPING UPPER LEVEL TROUGH...WILL CONTINUE TO MOVE WEST TONIGHT AND EARLY</summary>
+	<cap:event>Flash Flood Watch</cap:event>
+	<cap:effective>2014-11-05T11:35:00-04:00</cap:effective>
+	<cap:expires>2014-11-05T18:00:00-04:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Severe</cap:severity>
+	<cap:certainty>Possible</cap:certainty>
+	<cap:areaDesc>Central Interior; Culebra; Eastern Interior; Mayaguez and Vicinity; North Central; Northeast; Northwest; Ponce and Vicinity; San Juan and Vicinity; Southeast; Southwest; Vieques; Western Interior</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>072001 072003 072005 072007 072009 072011 072013 072015 072017 072019 072021 072023 072025 072027 072029 072031 072033 072035 072037 072039 072041 072043 072045 072047 072049 072051 072053 072054 072055 072057 072059 072061 072063 072065 072067 072069 072071 072073 072075 072077 072079 072081 072083 072085 072087 072089 072091 072093 072095 072097 072099 072101 072103 072105 072107 072109 072111 072113 072115 072117 072119 072121 072123 072125 072127 072129 072131 072133 072135 072137 072139 072141 072143 072145 072147 072149 072151 072153</value>
+	<valueName>UGC</valueName>
+	<value>PRZ001 PRZ002 PRZ003 PRZ004 PRZ005 PRZ006 PRZ007 PRZ008 PRZ009 PRZ010 PRZ011 PRZ012 PRZ013</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.TJSJ.FF.A.0005.000000T0000Z-141105T2200Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=SD1251776B7F58.WindAdvisory.1251776C30B0SD.UNRNPWUNR.9191f46b2a0f0f9724e50d3fc08612d2</id>
+	<updated>2014-11-05T11:46:00-07:00</updated>
+	<published>2014-11-05T11:46:00-07:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Wind Advisory issued November 05 at 11:46AM MST until November 05 at 4:00PM MST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=SD1251776B7F58.WindAdvisory.1251776C30B0SD.UNRNPWUNR.9191f46b2a0f0f9724e50d3fc08612d2'/>
+	<summary>.LOW PRESSURE WILL MOVE QUICKLY ACROSS NORTH DAKOTA TODAY... PRODUCING A TIGHT PRESSURE GRADIENT ACROSS WESTERN SOUTH DAKOTA. THIS WILL BRING VERY GUSTY NORTHWEST WINDS TO THE SOUTH DAKOTA PLAINS THROUGH LATE AFTERNOON. ...WIND ADVISORY REMAINS IN EFFECT UNTIL 4 PM MST /5 PM CST/ THIS AFTERNOON...</summary>
+	<cap:event>Wind Advisory</cap:event>
+	<cap:effective>2014-11-05T11:46:00-07:00</cap:effective>
+	<cap:expires>2014-11-05T16:00:00-07:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Butte; Haakon; Harding; Jackson; Mellette; Northern Foot Hills; Northern Meade Co Plains; Pennington Co Plains; Perkins; Rapid City; Southern Meade Co Plains; Sturgis, Piedmont Foot Hills; Todd; Tripp; Ziebach</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>046019 046055 046063 046071 046081 046093 046095 046103 046105 046121 046123 046137</value>
+	<valueName>UGC</valueName>
+	<value>SDZ001 SDZ002 SDZ012 SDZ013 SDZ014 SDZ025 SDZ026 SDZ031 SDZ032 SDZ043 SDZ046 SDZ047 SDZ049 SDZ072 SDZ073</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.KUNR.WI.Y.0038.000000T0000Z-141105T2300Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=SD1251776B35E8.WindAdvisory.12517777F080SD.ABRNPWABR.687200c32b47fb85c70bb32ff00931a6</id>
+	<updated>2014-11-05T09:58:00-07:00</updated>
+	<published>2014-11-05T09:58:00-07:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Wind Advisory issued November 05 at 9:58AM MST until November 05 at 5:00PM MST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=SD1251776B35E8.WindAdvisory.12517777F080SD.ABRNPWABR.687200c32b47fb85c70bb32ff00931a6'/>
+	<summary>...STRONG NORTHWEST WINDS TODAY ACROSS CENTRAL SOUTH DAKOTA... .A CLIPPER SYSTEM WILL MOVE FROM NORTHWEST TO SOUTHEAST ACROSS THE REGION TODAY. STRONG NORTHWEST WINDS ARE EXPECTED ON THE BACKSIDE OF THIS SYSTEM. ...WIND ADVISORY REMAINS IN EFFECT UNTIL 6 PM CST /5 PM MST/ THIS EVENING...</summary>
+	<cap:event>Wind Advisory</cap:event>
+	<cap:effective>2014-11-05T09:58:00-07:00</cap:effective>
+	<cap:expires>2014-11-05T17:00:00-07:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Buffalo; Campbell; Corson; Dewey; Edmunds; Faulk; Hand; Hughes; Hyde; Jones; Lyman; McPherson; Potter; Stanley; Sully; Walworth</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>046017 046021 046031 046041 046045 046049 046059 046065 046069 046075 046085 046089 046107 046117 046119 046129</value>
+	<valueName>UGC</valueName>
+	<value>SDZ003 SDZ004 SDZ005 SDZ009 SDZ010 SDZ015 SDZ016 SDZ017 SDZ033 SDZ034 SDZ035 SDZ036 SDZ037 SDZ045 SDZ048 SDZ051</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.KABR.WI.Y.0030.000000T0000Z-141106T0000Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=SD1251776B3584.WindAdvisory.125177781790SD.FSDNPWFSD.9c46f4d891f24482a345ddc812664727</id>
+	<updated>2014-11-05T09:57:00-07:00</updated>
+	<published>2014-11-05T09:57:00-07:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Wind Advisory issued November 05 at 9:57AM MST until November 05 at 6:00PM MST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=SD1251776B3584.WindAdvisory.125177781790SD.FSDNPWFSD.9c46f4d891f24482a345ddc812664727'/>
+	<summary>...WIND ADVISORY REMAINS IN EFFECT UNTIL 7 PM CST THIS EVENING... * TIMING...WINDS WILL BE STRONGEST THIS AFTERNOON. * WEATHER CONDITIONS...NORTHWEST WINDS OF 25 TO 35 MPH WITH GUSTS TO 45 MPH CAN BE EXPECTED. THE WINDS WILL GRADUALLY DECREASE OVERNIGHT.</summary>
+	<cap:event>Wind Advisory</cap:event>
+	<cap:effective>2014-11-05T09:57:00-07:00</cap:effective>
+	<cap:expires>2014-11-05T18:00:00-07:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Aurora; Beadle; Bon Homme; Brule; Charles Mix; Clay; Davison; Douglas; Gregory; Hanson; Hutchinson; Jerauld; McCook; Miner; Sanborn; Turner; Yankton</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>046003 046005 046009 046015 046023 046027 046035 046043 046053 046061 046067 046073 046087 046097 046111 046125 046135</value>
+	<valueName>UGC</valueName>
+	<value>SDZ038 SDZ050 SDZ052 SDZ053 SDZ054 SDZ057 SDZ058 SDZ059 SDZ060 SDZ061 SDZ063 SDZ064 SDZ065 SDZ066 SDZ068 SDZ069 SDZ070</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.KFSD.WI.Y.0017.141105T1800Z-141106T0100Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=SD1251776AAD94.AirQualityAlert.1251776C3C68SD.UNRAQAUNR.edaf1b1731ee2942fa5059d86bc2f467</id>
+	<updated>2014-11-05T06:09:00-07:00</updated>
+	<published>2014-11-05T06:09:00-07:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Air Quality Alert issued November 05 at 6:09AM MST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=SD1251776AAD94.AirQualityAlert.1251776C3C68SD.UNRAQAUNR.edaf1b1731ee2942fa5059d86bc2f467'/>
+	<summary>...AIR POLLUTION ALERT FOR DUST FOR RAPID CITY WEST OF THE GAP IN EFFECT FROM 8 AM UNTIL 4 PM... NORTHWEST WINDS WILL INCREASE EARLY THIS MORNING TO 20 TO 30 MPH WITH SOME GUSTS TO 45 MPH. THE WINDS WILL SUBSIDE LATE IN THE AFTERNOON. THE GUSTY WINDS WILL SUSPEND FINE DUST IN THE AIR OVER WEST RAPID CITY PRODUCING POOR AIR QUALITY.</summary>
+	<cap:event>Air Quality Alert</cap:event>
+	<cap:effective>2014-11-05T06:09:00-07:00</cap:effective>
+	<cap:expires>2014-11-05T16:30:00-07:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Unknown</cap:urgency>
+	<cap:severity>Unknown</cap:severity>
+	<cap:certainty>Unknown</cap:certainty>
+	<cap:areaDesc>Rapid City</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>046103</value>
+	<valueName>UGC</valueName>
+	<value>SDZ026</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value></value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX1251776ADD3C.FloodWarning.1251777B0D60TX.EWXFLWEWX.4a8765ae1fff40e5e6ef663bbcb8ed7f</id>
+	<updated>2014-11-05T08:31:00-06:00</updated>
+	<published>2014-11-05T08:31:00-06:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Flood Warning issued November 05 at 8:31AM CST until November 06 at 2:40PM CST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX1251776ADD3C.FloodWarning.1251777B0D60TX.EWXFLWEWX.4a8765ae1fff40e5e6ef663bbcb8ed7f'/>
+	<summary>...THE NATIONAL WEATHER SERVICE IN AUSTIN/SAN ANTONIO HAS ISSUED A FLOOD WARNING FOR THE... RIO GRANDE THE NATIONAL WEATHER SERVICE IN AUSTIN/SAN ANTONIO HAS ISSUED A * FLOOD WARNING FOR THE RIO GRANDE AT FOSTER RANCH. * FROM THIS EVENING TO THURSDAY AFTERNOON...OR UNTIL THE WARNING IS CANCELLED.</summary>
+	<cap:event>Flood Warning</cap:event>
+	<cap:effective>2014-11-05T08:31:00-06:00</cap:effective>
+	<cap:expires>2014-11-06T14:40:00-06:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Moderate</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Val Verde</cap:areaDesc>
+	<cap:polygon>29.75,-101.76 29.82,-101.76 29.82,-101.46 29.62,-101.22 29.54,-101.28 29.73,-101.47 29.75,-101.76</cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>048465</value>
+	<valueName>UGC</valueName>
+	<value>TXC465</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.NEW.KEWX.FL.W.0021.141106T0528Z-141106T2040Z/
+/LNYT2.1.ER.141106T0528Z.141106T0600Z.141106T0840Z.NO/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX1251776A4868.FlashFloodWatch.12517777F080TX.CRPFFACRP.0d0ec6494e56d3f82770fb0b747edd3c</id>
+	<updated>2014-11-05T04:50:00-06:00</updated>
+	<published>2014-11-05T04:50:00-06:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Flash Flood Watch issued November 05 at 4:50AM CST until November 05 at 6:00PM CST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX1251776A4868.FlashFloodWatch.12517777F080TX.CRPFFACRP.0d0ec6494e56d3f82770fb0b747edd3c'/>
+	<summary>...HEAVY RAINFALL EXPECTED TODAY ACROSS PORTIONS OF SOUTH TEXAS... .AN UPPER LEVEL DISTURBANCE WILL COMBINE WITH ABUNDANT MOISTURE AND A SLOW MOVING COLD FRONT TO PRODUCE NUMEROUS SHOWERS AND A FEW THUNDERSTORMS. THE HEAVIEST RAINFALL WILL OCCUR ALONG THE FRONTAL BOUNDARY...ESPECIALLY ACROSS THE RIO GRANDE PLAINS...NORTHERN COASTAL PLAINS AND THE VICTORIA CROSSROADS</summary>
+	<cap:event>Flash Flood Watch</cap:event>
+	<cap:effective>2014-11-05T04:50:00-06:00</cap:effective>
+	<cap:expires>2014-11-05T18:00:00-06:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Severe</cap:severity>
+	<cap:certainty>Possible</cap:certainty>
+	<cap:areaDesc>Bee; Goliad; La Salle; Live Oak; McMullen; Victoria; Webb</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>048025 048175 048283 048297 048311 048469 048479</value>
+	<valueName>UGC</valueName>
+	<value>TXZ229 TXZ230 TXZ231 TXZ232 TXZ233 TXZ234 TXZ239</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.KCRP.FF.A.0003.000000T0000Z-141106T0000Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX1251776A47A0.FlashFloodWatch.12517777F080TX.EWXFFAEWX.d1c72f7d62479d1d04d787ffa0c34571</id>
+	<updated>2014-11-05T04:48:00-06:00</updated>
+	<published>2014-11-05T04:48:00-06:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Flash Flood Watch issued November 05 at 4:48AM CST until November 05 at 6:00PM CST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX1251776A47A0.FlashFloodWatch.12517777F080TX.EWXFFAEWX.d1c72f7d62479d1d04d787ffa0c34571'/>
+	<summary>...HEAVY RAINFALL AND FLASH FLOODING POTENTIAL CONTINUES... .ABUNDANT TROPICAL MOISTURE FROM THE EASTERN PACIFIC WILL OVERRUN A COLD FRONT OVER THE COASTAL PLAINS TO PRODUCE LOCALLY HEAVY RAIN. RAINFALL AMOUNTS OF 2 TO 4 INCHES WILL REMAIN POSSIBLE ACROSS MOST AREAS WITH THE EXCEPTION OF THE NORTHERN HILL COUNTRY AND PARTS OF CENTRAL TEXAS.</summary>
+	<cap:event>Flash Flood Watch</cap:event>
+	<cap:effective>2014-11-05T04:48:00-06:00</cap:effective>
+	<cap:expires>2014-11-05T18:00:00-06:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Severe</cap:severity>
+	<cap:certainty>Possible</cap:certainty>
+	<cap:areaDesc>Atascosa; Bandera; Bastrop; Bexar; Blanco; Caldwell; Comal; DeWitt; Dimmit; Edwards; Fayette; Frio; Gillespie; Gonzales; Guadalupe; Hays; Karnes; Kendall; Kerr; Kinney; Lavaca; Lee; Maverick; Medina; Real; Uvalde; Val Verde; Wilson; Zavala</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>048013 048019 048021 048029 048031 048055 048091 048123 048127 048137 048149 048163 048171 048177 048187 048209 048255 048259 048265 048271 048285 048287 048323 048325 048385 048463 048465 048493 048507</value>
+	<valueName>UGC</valueName>
+	<value>TXC013 TXC019 TXC021 TXC029 TXC031 TXC055 TXC091 TXC123 TXC127 TXC137 TXC149 TXC163 TXC171 TXC177 TXC187 TXC209 TXC255 TXC259 TXC265 TXC271 TXC285 TXC287 TXC323 TXC325 TXC385 TXC463 TXC465 TXC493 TXC507</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.EXT.KEWX.FF.A.0006.000000T0000Z-141106T0000Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/</value>
+	</cap:parameter>
+	</entry>
+	
+
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=VI1251776B7274.HighSurfAdvisory.1251776C09A0VI.JSJCFWSJU.3aef8d6d04f217814ca754328348ec2c</id>
+	<updated>2014-11-05T14:13:00-04:00</updated>
+	<published>2014-11-05T14:13:00-04:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>High Surf Advisory issued November 05 at 2:13PM AST until November 05 at 6:00PM AST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=VI1251776B7274.HighSurfAdvisory.1251776C09A0VI.JSJCFWSJU.3aef8d6d04f217814ca754328348ec2c'/>
+	<summary>...HAZARDOUS SURF CONDITIONS WILL CONTINUE TO AFFECT THE ATLANTIC COASTLINE THROUGH LATE THIS EVENING...AND SUBSIDING OVERNIGHT... .NORTHERLY SWELLS OF 7 TO 8 FEET WILL CONTINUE TO AFFECT THE ATLANTIC COASTLINE THROUGH LATE THIS EVENING. THIS WILL CONTINUE TO RESULT IN SIGNIFICANT BREAKING WAVE ACTION ALONG THE COAST. CONDITIONS IMPROVING OVERNIGHT.</summary>
+	<cap:event>High Surf Advisory</cap:event>
+	<cap:effective>2014-11-05T14:13:00-04:00</cap:effective>
+	<cap:expires>2014-11-05T18:00:00-04:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>St.Thomas...St. John.. and Adjacent Islands</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>078020 078030</value>
+	<valueName>UGC</valueName>
+	<value>VIZ001</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CAN.TJSJ.CF.A.0001.000000T0000Z-141105T2200Z/
+/O.EXT.TJSJ.SU.Y.0006.000000T0000Z-141106T0800Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=VI1251776B05DC.FlashFloodWatch.1251776C09A0VI.JSJFFASJU.4c23ae789da0c5b1213e9f94e5e40941</id>
+	<updated>2014-11-05T11:35:00-04:00</updated>
+	<published>2014-11-05T11:35:00-04:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Flash Flood Watch issued November 05 at 11:35AM AST until November 05 at 6:00PM AST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=VI1251776B05DC.FlashFloodWatch.1251776C09A0VI.JSJFFASJU.4c23ae789da0c5b1213e9f94e5e40941'/>
+	<summary>...FLASH FLOOD WATCH REMAINS IN EFFECT UNTIL 6 PM AST THIS EVENING... THE FLASH FLOOD WATCH CONTINUES FOR ALL PUERTO RICO AND THE U.S. VIRGIN ISLANDS. * UNTIL 6 PM AST THIS EVENING * AN INDUCED SURFACE TROUGH...ASSOCIATED WITH A DEVELOPING UPPER LEVEL TROUGH...WILL CONTINUE TO MOVE WEST TONIGHT AND EARLY</summary>
+	<cap:event>Flash Flood Watch</cap:event>
+	<cap:effective>2014-11-05T11:35:00-04:00</cap:effective>
+	<cap:expires>2014-11-05T18:00:00-04:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Severe</cap:severity>
+	<cap:certainty>Possible</cap:certainty>
+	<cap:areaDesc>St Croix; St.Thomas...St. John.. and Adjacent Islands</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>078010 078020 078030</value>
+	<valueName>UGC</valueName>
+	<value>VIZ001 VIZ002</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.TJSJ.FF.A.0005.000000T0000Z-141105T2200Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=WA1251776AFF38.HighWindWatch.12517787F610WA.SEWNPWSEW.9f094f1084997edc7e64d01fdfe87ec1</id>
+	<updated>2014-11-05T07:18:00-08:00</updated>
+	<published>2014-11-05T07:18:00-08:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>High Wind Watch issued November 05 at 7:18AM PST until November 06 at 9:00PM PST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=WA1251776AFF38.HighWindWatch.12517787F610WA.SEWNPWSEW.9f094f1084997edc7e64d01fdfe87ec1'/>
+	<summary>...HIGH WIND WATCH REMAINS IN EFFECT FROM LATE TONIGHT THROUGH THURSDAY EVENING... * SOME AFFECTED LOCATIONS...WESTPORT...OCEAN SHORES...PACIFIC BEACH...TAHOLAH...KALALOCH...LA PUSH...FORKS. * TIMING...LATE TONIGHT THROUGH THURSDAY EVENING. STRONGEST WINDS ARE MORE PROBABLE THURSDAY MORNING THROUGH THURSDAY</summary>
+	<cap:event>High Wind Watch</cap:event>
+	<cap:effective>2014-11-05T07:18:00-08:00</cap:effective>
+	<cap:expires>2014-11-06T21:00:00-08:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Future</cap:urgency>
+	<cap:severity>Severe</cap:severity>
+	<cap:certainty>Possible</cap:certainty>
+	<cap:areaDesc>Central Coast; North Coast</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>053009 053027 053031</value>
+	<valueName>UGC</valueName>
+	<value>WAZ516 WAZ517</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value>/O.CON.KSEW.HW.A.0005.141106T1000Z-141107T0500Z/</value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=WA1251776A6618.SpecialWeatherStatement.1251776C30B0WA.PQRSPSPQR.77f7198fe913cb733c47ce52790163f3</id>
+	<updated>2014-11-05T03:26:00-08:00</updated>
+	<published>2014-11-05T03:26:00-08:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Special Weather Statement issued November 05 at 3:26AM PST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=WA1251776A6618.SpecialWeatherStatement.1251776C30B0WA.PQRSPSPQR.77f7198fe913cb733c47ce52790163f3'/>
+	<summary>...WINDY CONDITIONS POSSIBLE ALONG THE SOUTH WASHINGTON COAST AND THE NORTH OREGON COAST THURSDAY...AND LOCALLY INLAND FROM ABOUT PORTLAND NORTHWARD... RATHER STRONG SOUTH WINDS ARE LIKELY TO DEVELOP ALONG THE SOUTH WASHINGTON AND NORTH OREGON COASTS THURSDAY AS A STRONG COLD FRONT MOVES THROUGH. ALONG COASTAL HEADLANDS AND BEACHES EXPECT SOUTH</summary>
+	<cap:event>Special Weather Statement</cap:event>
+	<cap:effective>2014-11-05T03:26:00-08:00</cap:effective>
+	<cap:expires>2014-11-05T15:00:00-08:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Observed</cap:certainty>
+	<cap:areaDesc>Greater Vancouver Area; Lower Columbia and I - 5 Corridor in Cowlitz County; South Washington Cascade Foothills; South Washington Coast; Willapa Hills</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>053011 053015 053049 053059 053069</value>
+	<valueName>UGC</valueName>
+	<value>WAZ020 WAZ021 WAZ022 WAZ039 WAZ040</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value></value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=WI1251776B2198.SpecialWeatherStatement.1251776BE290WI.GRBSPSGRB.cd1b6937a851c5ba53d777e9e7ae0380</id>
+	<updated>2014-11-05T10:06:00-06:00</updated>
+	<published>2014-11-05T10:06:00-06:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Special Weather Statement issued November 05 at 10:06AM CST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=WI1251776B2198.SpecialWeatherStatement.1251776BE290WI.GRBSPSGRB.cd1b6937a851c5ba53d777e9e7ae0380'/>
+	<summary>...ACCUMULATING SNOW EXPECTED TONIGHT... AN ALBERTA CLIPPER SYSTEM TRACKING OVER THE STATE LATER THIS AFTERNOON THROUGH THURSDAY MORNING WILL GENERATE AN ACCUMULATING SNOW ACROSS THE AREA. SNOWFALL TOTALS OF 1 TO 3 INCHES ARE EXPECTED BY THURSDAY MORNING. PRECIPITATION IS EXPECTED TO START OUT AS RAIN THIS AFTERNOON...</summary>
+	<cap:event>Special Weather Statement</cap:event>
+	<cap:effective>2014-11-05T10:06:00-06:00</cap:effective>
+	<cap:expires>2014-11-05T15:00:00-06:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Observed</cap:certainty>
+	<cap:areaDesc>Florence; Forest; Langlade; Lincoln; Northern Marinette County; Northern Oconto County; Oneida; Southern Marinette County; Vilas</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>055037 055041 055067 055069 055075 055083 055085 055125</value>
+	<valueName>UGC</valueName>
+	<value>WIZ005 WIZ010 WIZ011 WIZ012 WIZ013 WIZ018 WIZ019 WIZ021 WIZ073</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value></value>
+	</cap:parameter>
+	</entry>
+	
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=WI1251776B2198.SpecialWeatherStatement.1251776BE290WI.GRBSPSGRB.7b03dc5bb42c73529d14900d2b101631</id>
+	<updated>2014-11-05T10:06:00-06:00</updated>
+	<published>2014-11-05T10:06:00-06:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>Special Weather Statement issued November 05 at 10:06AM CST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=WI1251776B2198.SpecialWeatherStatement.1251776BE290WI.GRBSPSGRB.7b03dc5bb42c73529d14900d2b101631'/>
+	<summary>...ACCUMULATING SNOW POSSIBLE LATE TONIGHT INTO THURSDAY MORNING... AN ALBERTA CLIPPER SYSTEM TRACKING OVER THE STATE LATER THIS AFTERNOON THROUGH THURSDAY MORNING WILL BRING A MIX OF RAIN AND SNOW TO THE AREA TONIGHT INTO THURSDAY MORNING. ACCUMULATIONS OF 1 TO 2 INCHES ARE POSSIBLE WEST OF THE FOX VALLEY. PRECIPITATION IS EXPECTED TO START OUT AS RAIN THIS AFTERNOON.</summary>
+	<cap:event>Special Weather Statement</cap:event>
+	<cap:effective>2014-11-05T10:06:00-06:00</cap:effective>
+	<cap:expires>2014-11-05T15:00:00-06:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Minor</cap:severity>
+	<cap:certainty>Observed</cap:certainty>
+	<cap:areaDesc>Marathon; Menominee; Outagamie; Portage; Shawano; Southern Oconto County; Waupaca; Waushara; Winnebago; Wood</cap:areaDesc>
+	<cap:polygon></cap:polygon>
+	<cap:geocode>
+	<valueName>FIPS6</valueName>
+	<value>055073 055078 055083 055087 055097 055115 055135 055137 055139 055141</value>
+	<valueName>UGC</valueName>
+	<value>WIZ020 WIZ030 WIZ031 WIZ035 WIZ036 WIZ037 WIZ038 WIZ045 WIZ048 WIZ074</value>
+	</cap:geocode>
+	<cap:parameter>
+	<valueName>VTEC</valueName>
+	<value></value>
+	</cap:parameter>
+	</entry>
+	
+</feed>
