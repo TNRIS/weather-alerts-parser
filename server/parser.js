@@ -9,14 +9,12 @@ module.exports = {
     var feedparser = new FeedParser();
 
     feedparser.on('end', function () {
-      cb(alerts);
+      cb(null, alerts);
     });
 
 
     feedparser.on('error', function done(err) { 
-      if (err) { 
-        console.log(err, err.stack); 
-      } 
+      cb(err);
     });
 
     feedparser.on('readable', function() {
