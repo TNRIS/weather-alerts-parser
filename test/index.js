@@ -1,13 +1,15 @@
 'use strict';
-var test = require('tape');
 var fs = require('fs');
+var path = require('path');
+var test = require('tape');
 
 var parser = require('../index.js');
 
 test('count matches', function (t) {
   t.plan(1);
 
-  var readable = fs.createReadStream('files/example.xml');
+  var filepath = path.join(__dirname, 'files/example.xml');
+  var readable = fs.createReadStream(filepath);
 
   parser.parse(readable, function (error, parsed) {
     t.equals(parsed.length, 39);
@@ -18,7 +20,8 @@ test('count matches', function (t) {
 test('errors propogates to callback function', function (t) {
   t.plan(1);
 
-  var readable = fs.createReadStream('files/erroneous.xml');
+  var filepath = path.join(__dirname, 'files/erroneous.xml');
+  var readable = fs.createReadStream(filepath);
 
   parser.parse(readable, function (error, parsed) {
     if (error) {

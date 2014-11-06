@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A streaming parser of National Weather Service alerts",
   "scripts": {
-    "test": "node test/*"
+    "test": "node test/*.js"
   },
   "author": "TNRIS app team",
   "repository": {
