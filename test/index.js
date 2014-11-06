@@ -114,9 +114,10 @@ test('parse alert with empty polygon', function (t) {
   parser.parse(readable, function (error, parsed) {
     var single = parsed[0];
 
-    t.test('polygon is correctly assigned', function (t2) {
-      t2.plan(1);
-      t2.equals(single.polygon, '');
+    t.test('polygon is not assigned', function (t2) {
+      t2.plan(2);
+      t2.equals(single.polygon, undefined);
+      t2.equals(Object.hasOwnProperty(single, 'polygon'), false);
     });
   });
 });

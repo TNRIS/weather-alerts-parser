@@ -40,7 +40,7 @@ function parseItem(item) {
   });
 
   if (obj.polygon === undefined) {
-    obj.polygon = '';
+    delete obj.polygon;
   }
 
   return obj;
