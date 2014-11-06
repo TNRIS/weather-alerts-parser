@@ -1,4 +1,4 @@
 Weather Alerts Parser
 =====================
 
-A streaming parser of National Weather Service alerts
+A streaming parser for National Weather Service alerts
