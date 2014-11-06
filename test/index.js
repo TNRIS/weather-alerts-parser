@@ -1,20 +1,28 @@
 'use strict';
-
 var test = require('tape');
-var request = require('supertest');
+var fs = require('fs');
 
-var app = require('../.dist/server')({'NODE_ENV': 'test'}).app;
+var parser = require('../index.js');
 
-test('/', function (t) {
+test('count matches', function (t) {
+  t.plan(1);
 
-  t.test('GET should return "hi"', function (t2) {
-    t2.plan(2);
+  var readable = fs.createReadStream('files/example.xml');
 
-    request(app)
-      .get('/')
-      .end(function (err, resp) {
-        t2.equals(resp.status, 200);
-        t2.equals(resp.text, "hi");
-      });
+  parser.parse(readable, function (error, parsed) {
+    t.equals(parsed.length, 39);
+  });
+});
+
+
+test('errors propogates to callback function', function (t) {
+  t.plan(1);
+
+  var readable = fs.createReadStream('files/erroneous.xml');
+
+  parser.parse(readable, function (error, parsed) {
+    if (error) {
+      t.equals(error.message, 'Not a feed');
+    }
   });
 });
