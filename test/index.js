@@ -59,6 +59,11 @@ test('parse alert', function (t) {
       t2.equals(single.msgType, 'Alert');
     });
 
+    t.test('polygon is correctly assigned', function (t2) {
+      t2.plan(1);
+      t2.equals(single.polygon, '29.75,-101.76 29.82,-101.76 29.82,-101.46 29.62,-101.22 29.54,-101.28 29.73,-101.47 29.75,-101.76');
+    });
+
     t.test('published is correctly assigned', function (t2) {
       t2.plan(1);
       t2.equals(single.published, '2014-11-05T05:25:00-09:00');
@@ -101,6 +106,20 @@ test('parse alert', function (t) {
   });
 });
 
+
+test('parse alert with empty polygon', function (t) {
+  var filepath = path.join(__dirname, 'files/single-empty-polygon.xml');
+  var readable = fs.createReadStream(filepath);
+
+  parser.parse(readable, function (error, parsed) {
+    var single = parsed[0];
+
+    t.test('polygon is correctly assigned', function (t2) {
+      t2.plan(1);
+      t2.equals(single.polygon, '');
+    });
+  });
+});
 
 test('errors propogates to callback function', function (t) {
   t.plan(1);

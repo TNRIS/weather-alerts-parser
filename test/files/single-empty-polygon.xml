@@ -49,7 +49,7 @@ xmlns:ha = 'http://www.alerting.net/namespace/index_1.0'
 	<cap:severity>Severe</cap:severity>
 	<cap:certainty>Likely</cap:certainty>
 	<cap:areaDesc>Cape Decision to Salisbury Sound Coastal Area; Inner Channels from Kupreanof Island to Etolin Island</cap:areaDesc>
-	<cap:polygon>29.75,-101.76 29.82,-101.76 29.82,-101.46 29.62,-101.22 29.54,-101.28 29.73,-101.47 29.75,-101.76</cap:polygon>
+	<cap:polygon></cap:polygon>
 	<cap:geocode>
 	<valueName>FIPS6</valueName>
 	<value>002105 002195 002198 002220 002275</value>

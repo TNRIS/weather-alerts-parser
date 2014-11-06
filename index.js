@@ -26,6 +26,7 @@ function parseItem(item) {
     'cap:event',
     'cap:expires',
     'cap:msgType',
+    'cap:polygon',
     'cap:severity',
     'cap:status',
     'cap:urgency'
@@ -37,6 +38,10 @@ function parseItem(item) {
     var feedProperty = type + ':' + name.toLowerCase();
     obj[name] = nestedProperty(item, [feedProperty, '#']);
   });
+
+  if (obj.polygon === undefined) {
+    obj.polygon = '';
+  }
 
   return obj;
 }
