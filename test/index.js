@@ -56,7 +56,6 @@ test('parse alert', function (t) {
 
     t.test('geocode.FIPS6 is correctly assigned', function (t2) {
       t2.plan(1);
-      debugger;
       t2.equals(single.geocode.FIPS6, '002105 002195 002198 002220 002275');
     });
 
