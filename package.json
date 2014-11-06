@@ -5,7 +5,7 @@
   "scripts": {
     "test": "node test/*.js"
   },
-  "author": "TNRIS app team",
+  "author": "Andy Wilson",
   "repository": {
     "type": "git",
     "url": "https://github.com/tnris/weather-alerts-parser"
@@ -14,7 +14,7 @@
     "url": "https://github.com/tnris/weather-alerts-parser/issues"
   },
   "homepage": "https://github.com/tnris/weather-alerts-parser/issues",
-  "license": "BSD",
+  "license": "BSD-2-Clause",
   "devDependencies": {
     "tape": "^3.0.2"
   },
