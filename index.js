@@ -43,6 +43,40 @@ function parseItem(item) {
     delete obj.polygon;
   }
 
+  var multiValueProperties = [
+    'cap:geocode',
+    'cap:parameter'
+  ];
+
+  multiValueProperties.forEach(function(multiValueProperty) {
+    var valuesObj = {};
+
+    var type = multiValueProperty.split(':')[0];
+    var name = multiValueProperty.split(':')[1];
+    var feedProperty = type + ':' + name.toLowerCase();
+
+    var values = nestedProperty(item, [feedProperty, 'value']);
+    var valueNames = nestedProperty(item, [feedProperty, 'valuename']);
+
+    if (!Array.isArray(values)) {
+      values = [values];
+    }
+    if (!Array.isArray(valueNames)) {
+      valueNames = [valueNames];
+    }
+
+    valueNames.forEach(function (valueName, i) {
+      var value = values[i];
+      if (value !== undefined) {
+        valuesObj[valueName['#']] = value['#'];
+      }
+    });
+
+    if (Object.keys(valuesObj).length > 0) {
+      obj[name] = valuesObj;
+    }
+  });
+
   return obj;
 }
 
@@ -57,7 +91,7 @@ module.exports = {
     });
 
 
-    feedparser.on('error', function done(err) { 
+    feedparser.on('error', function done(err) {
       cb(err);
     });
 

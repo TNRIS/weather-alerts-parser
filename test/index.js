@@ -54,6 +54,17 @@ test('parse alert', function (t) {
       t2.equals(single.expires, '2014-11-06T00:00:00-09:00');
     });
 
+    t.test('geocode.FIPS6 is correctly assigned', function (t2) {
+      t2.plan(1);
+      debugger;
+      t2.equals(single.geocode.FIPS6, '002105 002195 002198 002220 002275');
+    });
+
+    t.test('geocode.UGC is correctly assigned', function (t2) {
+      t2.plan(1);
+      t2.equals(single.geocode.UGC, 'AKZ023 AKZ026');
+    });
+
     t.test('msgType is correctly assigned', function (t2) {
       t2.plan(1);
       t2.equals(single.msgType, 'Alert');
@@ -62,6 +73,11 @@ test('parse alert', function (t) {
     t.test('polygon is correctly assigned', function (t2) {
       t2.plan(1);
       t2.equals(single.polygon, '29.75,-101.76 29.82,-101.76 29.82,-101.46 29.62,-101.22 29.54,-101.28 29.73,-101.47 29.75,-101.76');
+    });
+
+    t.test('parameter.VTEC is correctly assigned', function (t2) {
+      t2.plan(1);
+      t2.equals(single.parameter.VTEC, '/X.CON.PAJK.HW.W.0011.141106T0000Z-141106T0900Z/');
     });
 
     t.test('published is correctly assigned', function (t2) {
@@ -121,6 +137,29 @@ test('parse alert with empty polygon', function (t) {
     });
   });
 });
+
+
+test('parse alert with empty geocode and parameters', function (t) {
+  var filepath = path.join(__dirname, 'files/single-empty-geocode-and-parameter.xml');
+  var readable = fs.createReadStream(filepath);
+
+  parser.parse(readable, function (error, parsed) {
+    var single = parsed[0];
+
+    t.test('geocode is not assigned', function (t2) {
+      t2.plan(2);
+      t2.equals(single.geocode, undefined);
+      t2.equals(Object.hasOwnProperty(single, 'geocode'), false);
+    });
+
+    t.test('parameter is not assigned', function (t2) {
+      t2.plan(2);
+      t2.equals(single.parameter, undefined);
+      t2.equals(Object.hasOwnProperty(single, 'parameter'), false);
+    });
+  });
+});
+
 
 test('errors propogates to callback function', function (t) {
   t.plan(1);

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8' standalone = 'yes'?>
+
+<!--
+This atom/xml feed is an index to active advisories, watches and warnings 
+issued by the National Weather Service.  This index file is not the complete 
+Common Alerting Protocol (CAP) alert message.  To obtain the complete CAP 
+alert, please follow the links for each entry in this index.  Also note the 
+CAP message uses a style sheet to convey the information in a human readable 
+format.  Please view the source of the CAP message to see the complete data 
+set.  Not all information in the CAP message is contained in this index of 
+active alerts.
+-->
+
+
+<feed
+xmlns = 'http://www.w3.org/2005/Atom'
+xmlns:cap = 'urn:oasis:names:tc:emergency:cap:1.1'
+xmlns:ha = 'http://www.alerting.net/namespace/index_1.0'
+>
+<!-- http-date = Wed, 05 Nov 2014 07:02:00 GMT -->
+
+<id>http://alerts.weather.gov/cap/us.atom</id>
+<logo>http://alerts.weather.gov/images/xml_logo.gif</logo>
+<generator>NWS CAP Server</generator>
+<updated>2014-11-05T13:02:00-06:00</updated>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Current Watches, Warnings and Advisories for the United States Issued by the National Weather Service</title>
+<link href='http://alerts.weather.gov/cap/us.atom'/>
+
+	<entry>
+	<id>http://alerts.weather.gov/cap/wwacapget.php?x=AK1251776ADAE4.HighWindWarning.125177795010AK.AJKNPWAJK.0b2fbe9c62ef103901a2841f43c56168</id>
+	<updated>2014-11-05T06:25:00-09:00</updated>
+	<published>2014-11-05T05:25:00-09:00</published>
+	<author>
+	<name>w-nws.webmaster@noaa.gov</name>
+	</author>
+	<title>High Wind Warning issued November 05 at 5:25AM AKST until November 06 at 12:00AM AKST by NWS</title>
+	<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AK1251776ADAE4.HighWindWarning.125177795010AK.AJKNPWAJK.0b2fbe9c62ef103901a2841f43c56168'/>
+	<summary>...HIGH WIND WARNING REMAINS IN EFFECT FROM 3 PM THIS AFTERNOON TO MIDNIGHT AKST TONIGHT... * LOCATION...PORTIONS OF THE THE SOUTHERN PANHANDLE INCLUDING SOUTHERN BARANOF ISLAND...KUIU ISLAND...SOUTHERN KUPREANOF ISLAND...ETOLIN ISLAND AND ZAREMBO ISLAND. * WIND...25 TO 40 MPH WITH GUSTS TO AROUND 60 MPH. STRONGEST WINDS IN</summary>
+	<cap:event>High Wind Warning</cap:event>
+	<cap:effective>2014-11-05T05:25:00-09:00</cap:effective>
+	<cap:expires>2014-11-06T00:00:00-09:00</cap:expires>
+	<cap:status>Actual</cap:status>
+	<cap:msgType>Alert</cap:msgType>
+	<cap:category>Met</cap:category>
+	<cap:urgency>Expected</cap:urgency>
+	<cap:severity>Severe</cap:severity>
+	<cap:certainty>Likely</cap:certainty>
+	<cap:areaDesc>Cape Decision to Salisbury Sound Coastal Area; Inner Channels from Kupreanof Island to Etolin Island</cap:areaDesc>
+	<cap:polygon>29.75,-101.76 29.82,-101.76 29.82,-101.46 29.62,-101.22 29.54,-101.28 29.73,-101.47 29.75,-101.76</cap:polygon>
+	<cap:geocode></cap:geocode>
+	<cap:parameter></cap:parameter>
+	</entry>
+</feed>
+
