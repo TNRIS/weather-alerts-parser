@@ -1,6 +1,7 @@
 'use strict';
+var es = require('event-stream');
 var FeedParser = require('feedparser');
-
+var through = require('through');
 
 function nestedProperty(obj, keys) {
   if (obj === undefined || keys.length === 0) {
@@ -81,30 +82,21 @@ function parseItem(item) {
 }
 
 module.exports = {
+  stream: function () {
+    return through(function(item) {
+      this.queue(parseItem(item));
+    });
+  },
+
   parse: function (readableStream, cb) {
-    var alerts = [];
-
     var feedparser = new FeedParser();
+    var stream = this.stream();
 
-    feedparser.on('end', function () {
-      cb(null, alerts);
-    });
+    var fullStream = readableStream
+      .pipe(feedparser)
+      .on('error', cb)
+      .pipe(stream)
+      .pipe(es.writeArray(cb));
 
-
-    feedparser.on('error', function done(err) {
-      cb(err);
-    });
-
-    feedparser.on('readable', function() {
-      var stream = this,
-          item;
-
-      while (item = stream.read()) {
-        var obj = parseItem(item);
-        alerts.push(obj);
-      }
-    });
-
-    readableStream.pipe(feedparser);
   }
 };
