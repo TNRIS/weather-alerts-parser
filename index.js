@@ -93,10 +93,12 @@ module.exports = {
     var stream = this.stream();
 
     var fullStream = readableStream
+      .on('error', cb)
       .pipe(feedparser)
       .on('error', cb)
       .pipe(stream)
-      .pipe(es.writeArray(cb));
-
+      .on('error', cb)
+      .pipe(es.writeArray(cb))
+      .on('error', cb);
   }
 };
