@@ -2,8 +2,9 @@
 var fs = require('fs');
 var path = require('path');
 var test = require('tape');
+var through = require('through');
 
-var parser = require('../index.js');
+var parser = require('../lib/index.js');
 
 test('count matches', function (t) {
   t.plan(1);
@@ -13,6 +14,25 @@ test('count matches', function (t) {
 
   parser.parse(readable, function (error, parsed) {
     t.equals(parsed.length, 39);
+  });
+});
+
+test('stream interface', function (t) {
+  t.plan(1);
+
+  var filepath = path.join(__dirname, 'files/multiple.xml');
+  var readable = fs.createReadStream(filepath);
+
+  var parseStream = parser.stream();
+
+  var count = 0;
+  var countStream = through(function(item) {
+    count++;
+    this.queue(item);
+  });
+
+  readable.pipe(parseStream).pipe(countStream).on('end', function () {
+    t.equals(count, 39);
   });
 });
 
