@@ -2,6 +2,7 @@
   "name": "weather-alerts-parser",
   "version": "0.1.1",
   "description": "A streaming parser of National Weather Service alerts",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "node test/*.js"
   },
