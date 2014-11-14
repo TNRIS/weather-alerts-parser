@@ -134,9 +134,9 @@ test('parse alert', function (t) {
       t2.equals(single.urgency, 'Expected');
     });
 
-    t.test('url is correctly assigned', function (t2) {
+    t.test('link is correctly assigned', function (t2) {
       t2.plan(1);
-      t2.equals(single.url, 'http://alerts.weather.gov/cap/wwacapget.php?x=AK1251776ADAE4.HighWindWarning.125177795010AK.AJKNPWAJK.0b2fbe9c62ef103901a2841f43c56168');
+      t2.equals(single.link, 'http://alerts.weather.gov/cap/wwacapget.php?x=AK1251776ADAE4.HighWindWarning.125177795010AK.AJKNPWAJK.0b2fbe9c62ef103901a2841f43c56168');
     });
   });
 });
