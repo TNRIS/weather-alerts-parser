@@ -25,3 +25,7 @@ For example, this will print alert objects to stdout:
 
 
 You can also stream them into files or whatever.
+
+
+See [weather-alerts-geojson](https://github.com/TNRIS/weather-alerts-geojson)
+if you want to convert these bad boys to geojson.
