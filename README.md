@@ -14,7 +14,6 @@ objects.
 For example, this will print alert objects to stdout:
 
     var es = require('event-stream');
-    var fs = require('fs');
     var parser = require('weather-alerts-parser');
     var request = require('request');
 

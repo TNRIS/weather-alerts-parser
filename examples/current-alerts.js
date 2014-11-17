@@ -1,5 +1,4 @@
 'use strict';
-var fs = require('fs');
 
 var request = require('request');
 var es = require('event-stream');
