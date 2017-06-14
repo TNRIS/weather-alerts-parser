@@ -17,6 +17,7 @@
   "homepage": "https://github.com/tnris/weather-alerts-parser/issues",
   "license": "BSD-2-Clause",
   "devDependencies": {
+    "request": "^2.81.0",
     "tape": "^3.0.2"
   },
   "dependencies": {
